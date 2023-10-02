@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Message]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[FromTeam] INT NOT NULL,
+	[ToEvent] INT NOT NULL,
+	[Content] NVARCHAR(MAX) NOT NULL,
+	[CreatedAt] DATETIME NOT NULL,
+)
+
